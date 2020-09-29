@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif ;
+}
+body{
+  background-color: rgb(29, 18, 43);
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+
+  
+}
+.message_board{
+  width: 400px;
+  height: 60vh;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 20px 10px 0;
+  /* display: flex; */
+  overflow-y: scroll;
+  
+}
+
+.message{
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  margin: 10px 4px;
+  text-align: center;
+  
+}
+
+.message span{
+  padding: 10px 20px;
+}
+
+.myMessage{
+  color: black;
+  justify-content: flex-end;
+  
+  
+  
+
+}
+
+.myMessage span{
+  background-color: hotpink;
+}
+
+.otherMessage{
+  justify-content: flex-start;
+  
+  
+}
+
+.otherMessage span{
+
+  border: 1px solid gray;
+}
+
+.message_form{
+  margin: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+input.form_text{
+  /* height: 50px */
+  /* resize: none; */
+  background: none !important;
+  outline: none;
+  color: gray;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  height: 50px;
+  font-size: 14px;
+  
+}
+
+.message_form button{
+  background-color: hotpink;
+  margin-top: 10px;
+  padding:15px 25px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
